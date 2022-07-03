@@ -1,11 +1,11 @@
 import { MainRoutes } from "./MainRoutes";
+import { FormProvider } from './contexts/FormContext'
 
 export const App = () => {
   return(
-    <>
-      <div>HEADER</div>
+    <FormProvider>
       <MainRoutes />
-    </>
+    </FormProvider>
   );
 };
 
