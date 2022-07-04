@@ -19,17 +19,12 @@ export const FormStepTwo = () => {
         };
         dispatch({
             type: FormActions.setCurrentStep,
-            payload: 1
+            payload: 2
         });
     }, []);
 
-    const handleNextStep = () => {
-        navigate('/')
-    };
-
-    const handlePrevStep = () => {
-        navigate('/')
-    }
+    const handlePrevStep = () => navigate('/');
+    const handleNextStep = () => navigate('/stepThree');
 
     const setLevel = (level: 0 | 1) => {
         dispatch({
