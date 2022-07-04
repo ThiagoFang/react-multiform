@@ -36,6 +36,18 @@ export const Container = styled.div`
     }
 `;
 
+export const PrevButton = styled.button`
+    background: none;
+    color: #B8B8D4;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 50px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 15px;
+`;
+
 export const NextStepButton = styled.button<{isLocked?: boolean}>`
     background-color: #25Cd89;
     color: #FFF;
