@@ -38,6 +38,7 @@ export const FormStepThree = () => {
         setEmailError(false);
         setGithubError(false);
         console.log(state);
+        navigate('/userinfo')
     };
 
     const handleEmailChange = (e: ChangeEvent<HTMLInputElement>) => {

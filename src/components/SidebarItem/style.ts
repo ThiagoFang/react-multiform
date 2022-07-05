@@ -4,7 +4,7 @@ export const Container = styled.div`
     margin: 30px 0;
     cursor: pointer;
 
-    a {
+    .itemArea {
         display: flex;
         align-items: center;
         text-decoration: none;

@@ -5,7 +5,7 @@ type Props = {
     description: string,
     icon: string,
     selected: boolean,
-    onClick: () => void
+    onClick?: () => void
 }
 
 export const SelectOption = ({title, description, icon, selected, onClick}: Props) => {
